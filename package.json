@@ -1,6 +1,6 @@
 {
   "name": "ppwl5-latihan",
-  "module": "index.ts",
+  "module": "src/server.ts",
   "type": "module",
   "private": true,
   "devDependencies": {
