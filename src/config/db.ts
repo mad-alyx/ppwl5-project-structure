@@ -7,8 +7,8 @@ export function initDB() {
   db.run(`
     CREATE TABLE IF NOT EXISTS users (
       id INTEGER PRIMARY KEY AUTOINCREMENT,
-      name TEXT,
-      email TEXT
+      name TEXT NOT NULL,
+      role TEXT NOT NULL
     )
   `);
 }
